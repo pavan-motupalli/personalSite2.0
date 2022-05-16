@@ -4,7 +4,7 @@ import './Involvement.css';
 
 function Involvement(){
     return (
-        <p>Hello</p>
+        <p>Involvement</p>
     );
 }
 

@@ -1,7 +1,7 @@
 module.exports = {
     home: {
       particles: {
-        number: { value: 20 },
+        number: { value: 10 },
         color: { value: ['#0be779', '#008a3e', '#a3ffce'] },
         opacity: {
           value: 0.5,
@@ -14,11 +14,20 @@ module.exports = {
           },
         },
         size: {
-          value: 50,
-          random: true,
+          "random": {
+            "enable": true,
+            "minimumValue": 100
+          },
+          "value": {
+            "min": 100,
+            "max": 160
+          },
+          "animation": {
+            "minimumValue": 40
+          }
         },
         line_linked: {
-          enable: true,
+          enable: false,
           distance: 450,
           color: '#ffffff',
           opacity: 0.1,
@@ -26,12 +35,21 @@ module.exports = {
         },
         move: {
           enable: true,
-          speed: 1,
+          speed: 4,
           direction: 'none',
           random: true,
           straight: false,
-          bounce: true,
+          bounce: false,
         },
+        shape: {"options": {
+          "polygon": {
+            "sides": 6
+          },
+          "star": {
+            "sides": 6
+          }
+        }, 
+        type: 'polygon'},
       },
       interactivity: {
         detect_on: 'canvas',
@@ -49,10 +67,10 @@ module.exports = {
             size: 17,
             duration: 1,
             opacity: 0.8,
-            speed: 2,
+            speed: 1,
           },
         },
       },
       retina_detect: true,
     },
-  }
+}

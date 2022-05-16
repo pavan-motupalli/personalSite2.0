@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-.particles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: calc(100vh);
-  width: 100%;
-}
 
 .App-logo {
   height: 40vmin;
@@ -43,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #323232;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  min-width: 320px;
+  overflow-x: hidden;
 }

@@ -4,7 +4,7 @@ import './Leadership.css';
 
 function Leadership(){
     return (
-        <p>Hello</p>
+        <p>Leadership</p>
     );
 }
 
