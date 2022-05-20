@@ -1,16 +1,19 @@
 import React from 'react';
 import './Home.css';
-import Particles from 'react-particles-js';
-import config from '../../config';
+import PageWrapper from '../Navbar/PageWrapper';
 
+
+function HomeComponent(){
+    return (
+    <div className=''>
+        <h1>Home</h1>
+    </div>
+    )
+}
 
 function Home(){
     return (
-        <div className="home-wrapper">
-            <div className="home">
-                <Particles className="particles" params={config.home} />
-            </div>
-        </div>
+        <PageWrapper current="Home" component={<HomeComponent />} />
     );
 }
 

@@ -1,10 +1,19 @@
 import React from 'react';
 import './Contact.css';
+import PageWrapper from '../Navbar/PageWrapper';
 
+
+function ContactComponent(){
+    return (
+    <div className=''>
+        <h1>Contact</h1>
+    </div>
+    )
+}
 
 function Contact(){
     return (
-        <p>Contact</p>
+        <PageWrapper current="Contact" component={<ContactComponent />} />
     );
 }
 

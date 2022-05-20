@@ -1,10 +1,19 @@
 import React from 'react';
 import './Leadership.css';
+import PageWrapper from '../Navbar/PageWrapper';
 
+
+function LeadershipComponent(){
+    return (
+    <div className=''>
+        <h1>Leadership</h1>
+    </div>
+    )
+}
 
 function Leadership(){
     return (
-        <p>Leadership</p>
+        <PageWrapper current="Leadership" component={<LeadershipComponent />} />
     );
 }
 
