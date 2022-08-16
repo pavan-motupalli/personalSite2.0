@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        fira: ["Fira Sans", "sans-serif"]
+       },
+    },
     screens: {
       'sm': '320px',
       // => @media (min-width: 640px) { ... }

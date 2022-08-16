@@ -7,11 +7,11 @@ import config from '../../config';
 
 function PageWrapper(props){
     return (
-        <div className="section-wrapper">
+        <div className="font-fira">
             <Navbar current={props.current} />
             <div className="justify-center text-center items-center	-z-1">
                 <Particles className="particles" params={config.home} />
-                <div className="">
+                <div className='justify-center text-center items-center'>
                     {props.component}
                 </div>
             </div>
