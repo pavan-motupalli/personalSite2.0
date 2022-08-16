@@ -17,3 +17,12 @@
     width: 100%;
     z-index: -1;
 }
+
+.particles-a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(160vh);
+    width: 100%;
+    z-index: -1;
+}

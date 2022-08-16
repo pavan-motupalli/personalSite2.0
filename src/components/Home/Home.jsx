@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Headshot from '../../images/secHeadshot.jpg';
+import Headshot from '../../images/Home/secHeadshot.jpg';
 import PageWrapper from '../Navbar/PageWrapper';
 import LinkButtons from './LinkButtons';
 import Typewriter from 'typewriter-effect';

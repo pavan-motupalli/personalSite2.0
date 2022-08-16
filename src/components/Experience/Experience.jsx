@@ -1,12 +1,15 @@
 import React from 'react';
 import './Experience.css';
 import PageWrapper from '../Navbar/PageWrapper';
+import Title from '../../util/Title';
 
 
 function ExperienceComponent(){
     return (
-    <div className=''>
-        <h1>Experience</h1>
+    <div className='flex flex-col h-screen my-auto items-center'>
+        <Title 
+            page="Experience"
+        />
     </div>
     )
 }

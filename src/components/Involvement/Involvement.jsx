@@ -1,12 +1,15 @@
 import React from 'react';
 import './Involvement.css';
 import PageWrapper from '../Navbar/PageWrapper';
+import Title from '../../util/Title';
 
 
 function InvolvementComponent(){
     return (
-    <div className=''>
-        <h1>Involvement</h1>
+    <div className='flex flex-col h-screen my-auto items-center'>
+        <Title 
+            page="Involvement"
+        />
     </div>
     )
 }

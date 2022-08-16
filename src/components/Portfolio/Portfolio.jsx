@@ -1,12 +1,15 @@
 import React from 'react';
 import './Portfolio.css';
 import PageWrapper from '../Navbar/PageWrapper';
+import Title from '../../util/Title';
 
 
 function PortfolioComponent(){
     return (
-    <div className=''>
-        <h1>Portfolio</h1>
+    <div className='flex flex-col h-screen my-auto items-center'>
+        <Title 
+            page="Portfolio"
+        />
     </div>
     )
 }

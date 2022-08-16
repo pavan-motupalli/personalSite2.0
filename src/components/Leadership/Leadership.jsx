@@ -1,12 +1,15 @@
 import React from 'react';
 import './Leadership.css';
 import PageWrapper from '../Navbar/PageWrapper';
+import Title from '../../util/Title';
 
 
 function LeadershipComponent(){
     return (
-    <div className=''>
-        <h1>Leadership</h1>
+    <div className='flex flex-col h-screen my-auto items-center'>
+        <Title 
+            page="Leadership"
+        />
     </div>
     )
 }
