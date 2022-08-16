@@ -3,9 +3,10 @@ import './Home.css';
 import Headshot from '../../images/secHeadshot.jpg';
 import PageWrapper from '../Navbar/PageWrapper';
 import LinkButtons from './LinkButtons';
+import Typewriter from 'typewriter-effect';
 
 
-function HomeComponent(){
+function HomeCard(){
     const buttonData = [
         {
             imgSrc: "https://img.icons8.com/metro/52/356285/linkedin.png",
@@ -24,13 +25,8 @@ function HomeComponent(){
         }
     ]
 
-
     return (
-    <div className=''>
-        <div className='font-semibold text-7xl mb-8'>
-            <h1>Howdy!</h1>
-        </div>
-        <div className='m-auto bg-white rounded-lg border shadow-md min-w-md max-w-3xl overflow-hidden content-start'>
+        <div className='m-auto bg-white rounded-lg border shadow-md min-w-md max-w-4xl overflow-hidden content-start mb-4'>
             <div className=''>
                 <img className='object-scale-down h-1/3 w-1/3 rounded-full float-right m-px border-4' src={Headshot} alt="head" />
             </div>
@@ -51,6 +47,35 @@ function HomeComponent(){
                     <p>I am currently looking for full time Software Engineering roles. If you are interested, contact me at pmotupalli14@gmail.com</p>
                 </div>
             </div>
+        </div>
+    );
+}
+
+
+
+
+function HomeComponent(){
+    
+    return (
+    <div className=''>
+        <div className='font-semibold text-8xl mb-8'>
+            <h1>Howdy!</h1>
+        </div>
+        <HomeCard />
+        <div className='text-7xl mb-8'>
+            <h1>
+            <Typewriter
+                options={{
+                    strings: ['Engineer', 'Leader', 'Problem Solver', 'Innovator', 'Student'],
+                    autoStart: true,
+                    loop: true,
+                }}
+            />
+            </h1>
+        </div>
+        <div className='m-auto bg-white rounded-lg border shadow-md min-w-sm max-w-md content-start mb-4'>
+            <h2 className='text-black text-lg'>Copyright Pavan Motupalli {(new Date().getFullYear())} ©</h2>
+            <h2 className='text-black text-lg'>All Rights reserved.</h2>
         </div>
     </div>
     )
