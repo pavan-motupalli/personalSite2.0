@@ -16,20 +16,12 @@ const MenuItems = ({showMenu, active, current}) => {
             page: "About",
         },
         {
-            url: "/leadership",
-            page: "Leadership"
-        },
-        {
-            url: "/involvement",
-            page: "Involvement"
-        },
-        {
             url: "/experience",
             page: "Experience"
         },
         {
-            url: "/contact",
-            page: "Contact"
+            url: "/involvement",
+            page: "Involvement"
         }
     ]
     
