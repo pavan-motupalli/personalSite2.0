@@ -7,7 +7,10 @@ import config from '../../config';
 function helperC(page){
     if (page==='About'){
         return 'particles-a';
-    }else{
+    }else if (page==='Experience'){
+        return 'particles-e';
+    }
+    else{
         return 'particles';
     }
 }
@@ -17,7 +20,7 @@ function helperC(page){
 function PageWrapper(props){
     
     
-    console.log(helperC(props.current));
+    console.log(props.current);
     return (
         <div className="font-fira">
             <Navbar current={props.current} />

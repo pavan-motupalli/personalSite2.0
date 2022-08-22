@@ -1,18 +1,18 @@
 
 export const ExperienceData = [
     {
-        company: "Toast",
+        company: "Toast.inc",
         role: "Incoming Software Engineering Intern",
         start_date: "September 2022",
         end_date: "December 2022",
-        imgSrc: "Toast.png",
+        imgSrc: "Toast.jpg",
         experience: [
-            "Currently Awaiting Team Matching jsdHFiushfiuwhfiuwehfviuwgfbgbiygbfuiwegfiuwhfiuwehfuiwehfuiwehfiwuehfiuyhiuhfui",
+            "During the fall, I will be doing a fall software engineering co-op at Toast.inc. As of developing this site, I am currently waiting on team matching to learn what stack I will be working on.",
         ],
         skills: [
         ]
-    },
-    {
+    }
+    ,{
         company: "Amazon",
         role: "Software Development Engineering Intern",
         start_date: "May 2022",

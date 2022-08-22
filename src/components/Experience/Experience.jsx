@@ -54,7 +54,7 @@ function ExperienceComponent(){
 
 function Experience(){
     return (
-        <PageWrapper component={<ExperienceComponent />} />
+        <PageWrapper current="Experience" component={<ExperienceComponent />} />
     );
 }
 

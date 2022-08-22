@@ -26,3 +26,12 @@
     width: 100%;
     z-index: -1;
 }
+
+.particles-e {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(240vh);
+    width: 100%;
+    z-index: -1;
+}
