@@ -2,15 +2,13 @@ import React from 'react';
 
 function ExperienceCard(props){
     return (
-        <div className="flex flex-row bg-white rounded-lg border shadow-md mt-9 max-w-5xl text-black pr-3">
+        <div className="flex flex-row bg-white rounded-lg border shadow-md mt-9 max-w-6xl text-black pr-3">
             <img src={require('../../images/Experience/'+props.imgSrc)} alt={props.imgSrc} className='w-56 rounded-full m-6' />
             <div className='flex flex-col'>
                 <div className='flex flex-row'>
                     <h1 className='mr-48 text-2xl'>{props.company}</h1>
                 </div>
-                <div className='flex'>
-
-                </div>
+                <hr className='w-full h-[2px] bg-black mb-4'/>
                 <div className='flex flex-row items-center'>
                 
                     <div className='flex flex-col text-left'>
