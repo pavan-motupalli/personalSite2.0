@@ -1,9 +1,9 @@
 import React from 'react';
 
-function ExperienceCard(props){
+function InvolvementCard(props){
     return (
-        <div className="flex flex-row bg-white rounded-lg border shadow-md mt-9 mb-3 max-w-6xl text-black pr-3">
-            <img src={require('../../images/Experience/'+props.imgSrc)} alt={props.imgSrc} className='w-56 rounded-full m-6' />
+        <div className="flex flex-row bg-white rounded-lg border shadow-md mt-9 max-w-6xl text-black pr-3">
+            <img src={require('../../images/Involvement/'+props.imgSrc)} alt={props.imgSrc} className='w-56 rounded m-6' />
             <div className='flex flex-col'>
                 <div className='flex flex-row'>
                     <h1 className='mr-48 text-2xl'>{props.company}</h1>
@@ -37,4 +37,4 @@ function ExperienceCard(props){
     )
 }
 
-export default ExperienceCard;
+export default InvolvementCard;

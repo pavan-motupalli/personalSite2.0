@@ -31,7 +31,16 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: calc(240vh);
+    height: calc(355vh);
+    width: 100%;
+    z-index: -1;
+}
+
+.particles-i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(135vh);
     width: 100%;
     z-index: -1;
 }

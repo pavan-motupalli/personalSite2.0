@@ -5,6 +5,12 @@ import Title from '../../util/Title';
 import TAMU from '../../images/Experience/TAMU.jpg';
 import ExperienceCard from '../../util/ExperienceCard/ExperienceCard';
 import { ExperienceData } from './ExperienceData';
+import { Document, Page,  pdfjs } from 'react-pdf';
+import Resume from '../../util/Resume.pdf';
+
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 
 function ExperienceComponent(){
     return (
@@ -48,6 +54,12 @@ function ExperienceComponent(){
                 skills={exp.skills}
              />
         ))}
+        <div className='mt-10'>
+        <div className='m-auto bg-white rounded-lg border shadow-md min-w-sm max-w-md content-start mb-6'>
+            <h1 className='text-black text-5xl'>Resume</h1>
+        </div>
+        <embed src={Resume} width="1200px" height="700px"></embed>
+        </div>
     </div>
     )
 }

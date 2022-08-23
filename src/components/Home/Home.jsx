@@ -4,6 +4,7 @@ import Headshot from '../../images/Home/secHeadshot.jpg';
 import PageWrapper from '../Navbar/PageWrapper';
 import LinkButtons from './LinkButtons';
 import Typewriter from 'typewriter-effect';
+import Resume from '../../util/Resume.pdf';
 
 
 function HomeCard(){
@@ -17,11 +18,6 @@ function HomeCard(){
             imgSrc: "https://img.icons8.com/metro/52/356285/github.png",
             href: "https://github.tamu.edu/pmotupalli14",
             title: "GitHub"  
-        },
-        {
-            imgSrc: "https://img.icons8.com/ios-filled/48/356285/gmail.png",
-            href: "mailto:pmotupalli14@gmail.com",
-            title: "Email"
         }
     ]
 
@@ -30,7 +26,7 @@ function HomeCard(){
             <div className=''>
                 <img className='object-scale-down h-1/3 w-1/3 rounded-full float-right m-px border-4' src={Headshot} alt="head" />
             </div>
-            <div className="text-black text-left text-2xl m-3">
+            <div className="text-black text-left text-3xl m-3">
                 <p>My name is Pavan Motupalli and I am a senior Computer Science major at Texas A&M. I am also pursuing a minor in business. Welcome to my website!</p>
             </div>
             <div className='w-auto'>
@@ -42,8 +38,13 @@ function HomeCard(){
                         title={page.title}
                     />
                 ))}
+                <LinkButtons  
+                        imgSrc="https://img.icons8.com/ios-filled/48/356285/resume.png"
+                        href={Resume}
+                        title="Resume"
+                    />
                 </div>
-                <div className='text-black text-left text-lg'>
+                <div className='text-black text-left text-2xl'>
                     <p>I am currently looking for full time Software Engineering roles. If you are interested, contact me at pmotupalli14@gmail.com</p>
                 </div>
             </div>

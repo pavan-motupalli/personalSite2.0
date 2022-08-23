@@ -8,10 +8,12 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Experience from './components/Experience/Experience';
 import Leadership from './components/Leadership/Leadership';
 import Contact from './components/Contact/Contact';
+import ScrollToTop from './util/ScrollToTop';
 
 function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>

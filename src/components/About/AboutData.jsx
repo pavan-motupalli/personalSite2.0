@@ -3,7 +3,7 @@ import '../../images/About/Scratch.jpg';
 export const AboutData = [
     {
         title: "So... who am I?",
-        description: "As you've seen earlier, I'm Pavan. I am from Sugar Land, Texas, one of the most diverse cities in the country. Ethnic concets and fusion restaurants were the norm in my hometown. By growing up in such a diverse community, I learned about various different cultures and grew to be empathetic to others. As a result, my leadership style is very much influenced from the interesting connversations from my upbringing!",
+        description: "As you've seen earlier, I'm Pavan. I am from Sugar Land, Texas, one of the most diverse cities in the country. International concerts and fusion restaurants were the norm in my hometown. By growing up in such a diverse community, I learned about various different cultures and grew to be empathetic to others. As a result, my leadership style is very much influenced from the interesting connversations from my upbringing!",
         image: "Boston.jpg"
     },
     {

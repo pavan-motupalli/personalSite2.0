@@ -9,6 +9,8 @@ function helperC(page){
         return 'particles-a';
     }else if (page==='Experience'){
         return 'particles-e';
+    }else if (page==='Involvement'){
+        return 'particles-i';
     }
     else{
         return 'particles';
