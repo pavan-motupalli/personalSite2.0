@@ -5,11 +5,7 @@ import Title from '../../util/Title';
 import TAMU from '../../images/Experience/TAMU.jpg';
 import ExperienceCard from '../../util/ExperienceCard/ExperienceCard';
 import { ExperienceData } from './ExperienceData';
-import { Document, Page,  pdfjs } from 'react-pdf';
 import Resume from '../../util/Resume.pdf';
-
-
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 function ExperienceComponent(){
